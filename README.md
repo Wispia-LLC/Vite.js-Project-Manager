@@ -32,26 +32,12 @@ Desktop app for creating and managing local Vite and Electron projects from one 
 nvm install 20
 nvm use 20
 ```
-
-4. Install Python dependencies:
-
+once done execute those following commands
 ```powershell
 pip install -r requirements.txt
 ```
-
-## Run
-
+and then
 ```powershell
-python main.py
+python ./main.py
 ```
-
-## Project Structure
-
-- `main.py` - app entry point and UI logic
-- `projects/` - generated Vite and Electron projects
-- `requirements.txt` - Python dependencies
-
-## Notes
-
-- If `npm` cannot be found, project creation will fail until Node.js is installed and active through `nvm`.
-- New projects are created directly inside `projects/<name>`.
+and then ready
